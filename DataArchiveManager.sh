@@ -3,13 +3,16 @@
 # Get today's date in YYYYMMDD format
 today=$(date +%Y%m%d)
 
-# Directory where '@CURRENT' and '@PRIOR' are located
+# Base directory where '@Current' is located
 base_directory="/path/to/your/directories"
 
-# Rename '@PRIOR' to today's date
-mv "${base_directory}/@PRIOR" "${base_directory}/${today}"
+# Archive directory where '@Prior' and dated directories are located
+archive_directory="${base_directory}/Archive"
 
-# Copy '@CURRENT' to a new '@PRIOR'
-cp -r "${base_directory}/@CURRENT" "${base_directory}/@PRIOR"
+# Rename '@Prior' to today's date within the 'Archive' directory
+mv "${archive_directory}/@Prior" "${archive_directory}/${today}"
+
+# Copy '@Current' to a new '@Prior' in the 'Archive' directory
+cp -r "${base_directory}/@Current" "${archive_directory}/@Prior"
 
 echo "Directories have been updated successfully."
