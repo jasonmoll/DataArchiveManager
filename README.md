@@ -1,5 +1,5 @@
 # DataArchiveManager
-DataArchiveManager is a simple, automated script designed to manage dataset versions by renaming the '@PRIOR' directory to today's date (YYYYMMDD format) and duplicating '@CURRENT' as the new '@PRIOR'. This tool helps data analysts who need consistent dataset version control for comparative analysis using Excel tools, ensuring the current and previous dataset states are easily accessible and properly archived. 
+DataArchiveManager is a simple, automated script designed to manage dataset versions by renaming the '@PRIOR' directory to today's date (YYYYMMDD format) and duplicating '@CURRENT' as the new '@PRIOR' in the 'Archive' directory. This tool helps data analysts who need consistent dataset version control for comparative analysis using Excel tools, ensuring the current and previous dataset states are easily accessible and properly archived. 
 
 This script renames the '@PRIOR' directory to today's date in YYYYMMDD format and updates '@CURRENT' to '@PRIOR', streamlining dataset management and analysis.
 
