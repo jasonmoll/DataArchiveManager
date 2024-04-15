@@ -17,7 +17,7 @@ git clone https://github.com/jasonmoll/DataArchiveManager.git
 cd DataArchiveManager
 
 3. Make the script executable:
-chmod +x dateshiftmanager.sh
+chmod +x dataarchivemanager.sh
 
 ## Usage
 To run DateShiftManager, simply execute the script from the command line:
