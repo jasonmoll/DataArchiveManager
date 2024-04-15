@@ -19,7 +19,7 @@ cd DataArchiveManager
 3. Make the script executable:
 chmod +x dateshiftmanager.sh
 
-##Usage
+## Usage
 To run DateShiftManager, simply execute the script from the command line:
 ./dateshiftmanager.sh
 
